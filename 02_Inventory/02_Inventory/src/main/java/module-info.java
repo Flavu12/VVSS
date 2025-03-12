@@ -1,7 +1,7 @@
 module inventory {
-    requires javafx.graphics;
     requires javafx.fxml;
-    requires javafx.controls;
+    requires org.controlsfx.controls;
+    requires java.xml;
 
     opens inventory.model to javafx.base;
     exports inventory.model;
